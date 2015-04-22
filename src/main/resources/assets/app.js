@@ -132,7 +132,7 @@ var renderer = function(graphData, githubHostname) {
   function setGraphDimension() {
     svg.attr({
       "width": "100%",
-      "height": window.innerHeight - 80
+      "height": window.innerHeight * 2
     });
   }
 
